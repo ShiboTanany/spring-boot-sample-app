@@ -5,6 +5,7 @@ pipeline {
     environment {
         EMAIL_RECIPIENTS = 'mahmoud.romeh@test.com'
     }
+
     stages {
 
         stage('Build with unit testing') {
